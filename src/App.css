@@ -26,10 +26,19 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+button {
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+  border-radius: 2px;
+  color: #fff;
+  height: 44px;
+}
 .App {
   max-width: 600px;
   margin: 30px auto;
 }
+
 .Weather {
   padding: 20px;
   border: 1px solid #dadde1;
@@ -41,6 +50,7 @@ a {
 .Weather .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
+  margin-left: 5px;
   line-height: 1;
   font-weight: 400;
 }

@@ -5,14 +5,14 @@ export default function Weather() {
   return (
     <div className="row">
       <div className="col-6">
-        <div className="d-flex weather-temperature">
+        <div className="d-flex">
           <ReactAnimatedWeather
             icon={"CLOUDY"}
             color={"#000000"}
-            size={20}
+            size={50}
             animate={true}
           />
-          <div className="float-left">
+          <div className="float-left weather-temperature">
             <strong>19</strong>
             <span className="units">
               <a href="/">°C</a> | <a href="/">°F</a>
