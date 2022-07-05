@@ -3,30 +3,22 @@ import React from "react";
 export default function Search() {
   return (
     <div className="clearfix">
-      <form className="search-form mb-3" id="search-form">
-        <div className="row">
-          <div className="col-9">
-            <input
-              type="search"
-              placeholder="Type a city.."
-              autoFocus="on"
-              autoComplete="off"
-              id="city-input"
-              className="form-control shadow-sm"
-            />
-          </div>
-          <div className="col-3">
-            <input
-              type="submit"
-              value="Search"
-              className="form-control btn btn-primary shadow-sm w-100"
-            />
-          </div>
-        </div>
+      <form className="float-left search-form mb-3" id="search-form">
+        <input
+          type="search"
+          placeholder="Type a city.."
+          autoFocus="on"
+          autoComplete="off"
+          id="city-input"
+          className="shadow-sm"
+        />
+        <input
+          type="submit"
+          value="Search"
+          className="btn btn-primary shadow-sm"
+        />
       </form>
-      <button className="float-left btn btn-success shadow-sm">
-        Current
-      </button>
+      <button className="float-left btn btn-success shadow-sm">Current</button>
     </div>
   );
 }
