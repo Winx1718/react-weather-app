@@ -1,12 +1,13 @@
 import React from "react";
-
+import ReactAnimatedWeather from "react-animated-weather";
 export default function WeatherTemp() {
   return (
     <div className="d-flex weather-temperature">
-      <img
-        src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-        alt="Cloudy"
-        className="float-left"
+      <ReactAnimatedWeather
+        icon={"CLEAR_DAY"}
+        color={"black"}
+        size={38}
+        animate={true}
       />
       <div className="float-left">
         <strong>19</strong>
