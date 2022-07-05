@@ -38,11 +38,6 @@ a {
 .Weather .Overview {
   margin-bottom: 20px;
 }
-.Weather .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
-}
 .Weather .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
