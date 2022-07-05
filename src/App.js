@@ -2,6 +2,7 @@ import "./App.css";
 import Search from "./Search";
 import Overview from "./Overview";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         <Search />
         <Overview />
         <Weather />
+        <Forecast />
       </div>
     </div>
   );
